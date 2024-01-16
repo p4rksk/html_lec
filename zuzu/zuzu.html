@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <script src="https://kit.fontawesome.com/df3f486c7c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+        }
+
+
+
+        .nav {
+            position: absolute;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 100%;
+            top: 10px;
+            justify-content: space-between;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10px;
+
+        }
+
+        .newcollection {
+            background-color: #f8eceb;
+        }
+
+        .top {
+            width: 100%;
+            height: 70%;
+            margin: 60px 80px 0;
+        }
+
+        .bottom {
+            background-color: white;
+            height: 100%;
+        }
+
+        .i i {
+            float: right;
+            margin: 5px 5px;
+        }
+
+        .a {
+            display: grid;
+            align-items: end;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="logo"><b>
+                    zuzu.
+                </b></div>
+            <div class="menu">
+                <div class="about">about</div>
+                <div class="collections">collections</div>
+                <div class="videos">videos</div>
+                <div class="contact">contact</div>
+            </div>
+            <div class="language">
+                <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                ENG
+            </div>
+        </div>
+        <div class="vacation">
+            <img src="./images/vacation.jpg" alt="vacation" style="width: 100%; height: 100%;">
+        </div>
+
+        <div class="newcollection">
+            <div class="top">
+                <h1>New
+                    <br>
+                    collections
+                </h1>
+            </div>
+            <div class="bottom">
+                <div class="a">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="i">
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

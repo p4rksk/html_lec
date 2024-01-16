@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+<style>.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+
+
+.nav {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    top: 10px;
+    justify-content: space-between;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+
+}
+
+.newcollection {
+    background-color: #f8eceb;
+}
+
+.top {
+    width: 100%;
+    top: 10px;
+}
+
+</style>
