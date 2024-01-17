@@ -1,0 +1,64 @@
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.main {
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    justify-content: center;
+}
+
+.main-body {
+    width: 700px;
+    text-align: center;
+}
+
+.section-title {
+    color: rgb(218, 147, 147);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    font-size: 12px;
+}
+
+.section-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+
+.img-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-name {
+    position: absolute;
+    color: white;
+}
+
+.img-item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-detail {
+    background-color: rgb(225, 130, 130);
+    border-radius: 6px;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
