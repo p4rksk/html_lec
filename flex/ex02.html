@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .flex-item-left {
+            background-color: #f1f1f1;
+            padding: 10px;
+            flex: 1;
+        }
+
+        .flex-item-right {
+            background-color: dodgerblue;
+            padding: 10px;
+            flex: 1;
+        }
+
+        /*이거 손봐야됨*/
+        /* Responsive layout - makes a one column-layout instead of two-column layout */
+        /*800px보다 작을 때 cloumn으로 바뀐다: 미디어쿼리*/
+        /*반응형*/
+        @media (max-width: 600px) {
+            .flex-container {
+                flex-direction: column;
+            }
+
+            .flex-item-right {
+                background-color: red;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class="flex-item-left">1</div>
+        <div class="flex-item-right">2</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .flex-container {
+            width: 80%;
+            /*비율 정할 때 %로 해야지 모니터 화면마다에 맞게 적용됨*/
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: DodgerBlue;
+        }
+
+        .flex-container>div {
+            /*>div는 바로 밑에 자식*/
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            height: 50px;
+            flex: 1;
+        }
+
+        .a {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="flex-container">
+            <div class="a">1</div>
+            <div class="b">2</div>
+            <div class="c">3</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
